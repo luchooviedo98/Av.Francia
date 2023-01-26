@@ -1,0 +1,246 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+    width: auto;
+    
+}
+
+body{
+
+    font-family: 'Stint-Ultra-Condensed';
+    font-family: 'Six-Caps';
+    scroll-behavior: smooth;
+}
+
+#Name{
+
+    background-color: #2e1c2b;
+    background-image: url(/Misc/Background.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    color: #ffff;
+    width: auto;
+    height: 670px;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+
+.Menu{
+
+    background-color: rgb(10, 9, 9);
+    color: #ffff;
+    height: 75px;
+    width:100%;
+    text-align: center;
+    word-spacing: 85px;
+    transition: 1s all; 
+    position: fixed;
+    z-index: 1;
+    
+}
+
+
+#MenuIcon{
+
+    height:20px;
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden;
+    display:none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+
+}
+li{
+    color: rgb(224, 223, 223);
+    list-style: none;
+    font-size: 25px;
+    margin-top: 25px;
+
+}
+li:hover{
+
+    color: #922880;
+}
+.Presentacion{
+   color: #ffff;
+   background-color:black;
+   height: 570px;
+   padding: 10px;
+   margin-top: 0px;
+   width:auto;
+
+  }
+ #Descripcion{
+    margin-top: 60px;
+    margin-left: 120px;
+    border: 3px solid #2e1c2b;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    height: 300px;
+    font-size: 20px;
+    display: inline-block;
+    overflow: auto;
+ } 
+
+#AVF-Live-LaBarra{
+
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-left: 300px;
+    margin-top: 60px;
+    z-index: -0.5;
+   
+}
+
+.Fechas{
+
+    background-color: #2e1c2b;
+    color: #ffff;
+    height: 400px;
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    width: auto;
+
+    
+}
+
+.Fecha1, .Fecha2, .Fecha3{
+    color: #ffff;
+    text-align: center;
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    transition-duration: 0.3s; 
+    
+    
+}
+.Fecha1:hover, .Fecha2:hover, .Fecha3:hover{
+
+    background-color: rgb(60, 60, 226);
+}
+
+.Musica{
+
+    height: 500px;
+    background-color: black;
+    color: #ffff;
+    margin: -20px;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    
+
+   
+}
+.Musica{
+
+    width: 100%;
+    
+}
+
+.Canciones{
+    display:inline-block;
+
+}
+
+
+.Merch{
+
+    height: 575px;
+    background-color: #2e1c2b;
+    color: #ffff;
+    margin: -20px;
+    width: 101.5%;
+}
+
+.Contacto{
+
+    height: 600px;
+    background-color: black;
+    color: #ffff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.SocialButtons{
+    background-color: #ffff;
+    padding: 30px;
+    text-align: center;
+    word-spacing: 50px;
+
+
+}
+
+#IG:hover, #Facebook:hover, #TikTok:hover{
+
+    background-color: #814c78;
+    border-radius: 100px;
+    height: 45px;
+    animation-duration: 1.5s;
+}
+
+.Formulario{
+
+    font-size: 25px;
+    border: solid 2px #2e1c2b;
+    margin-top: 20px;
+    border-style:dashed;
+    border
+    
+}
+
+input{
+
+    width:200px;
+    height:25px;
+}
+
+#msg{
+
+    padding-bottom: 100px;
+    text-align: justify;
+
+}
+#Send{
+
+    text-transform:capitalize;
+    font-size: 20px;
+    border: solid 2px #814c78;
+    height: 32px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 3px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+#Send:hover{
+    background-color:#2e1c2b;
+    color: #ffff;
+    cursor: pointer;
+
+}
+
+
+
+.PiePagina{
+
+    background-color: #000000;
+    text-align: end;
+    padding: 5px;
+    color: #ffff;
+    letter-spacing: 0.2em;
+}
+
+
+  
+
